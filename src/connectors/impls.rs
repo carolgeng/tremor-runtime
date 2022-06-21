@@ -30,6 +30,7 @@ pub(crate) mod exit;
 pub(crate) mod file;
 /// Google Big Query
 pub(crate) mod gbq;
+pub(crate) mod gcs;
 pub(crate) mod gpubsub;
 /// HTTP
 pub(crate) mod http;
@@ -60,4 +61,3 @@ pub(crate) mod unix_socket;
 pub(crate) mod wal;
 /// `WebSockets`
 pub(crate) mod ws;
-mod gcs;
